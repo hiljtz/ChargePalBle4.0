@@ -1,0 +1,11 @@
+
+<button type="primary" bindtap="scan">扫码 </button>
+<view>设备地址：{{deviceId}},客服端：{{platform}},服务：{{serviceId}} 特征：{{characteristics[1].uuid}}当前指令：{{hexComm}}</view>
+<button type="primary" bindtap="charge60"> 充电60分钟指令 </button>
+<button type="primary" bindtap="charge250"> 充电250分钟指令 </button>
+<button type="primary" bindtap="close"> 关闭指令 </button>
+<button type="primary" bindtap="query"> 查询状态 </button>
+<button type="primary" bindtap="seeInfo"> 查询电压电量 </button>
+<button type="primary" bindtap="setId"> 设置ID0为0xFF </button>
+<button type="primary" bindtap="setStatus"> 设置模式为设置Id0状态 </button>
+<button type="primary" bindtap="closeConn"> 断开连接</button>

@@ -1,0 +1,18 @@
+
+
+<view class="container">
+
+
+  <view class="page-body">
+    <view class="page-section">
+      <view>支付金额</view>
+      <view class="price">{{UnAmount/100}}</view>
+      <view class="desc">实际接口应用中可自定义金额</view>
+      <view class="btn-area">
+        <button type="primary" bindtap="requestPayment" loading="{{loading}}">支付</button>
+      </view>
+    </view>
+  </view>
+
+
+</view>
